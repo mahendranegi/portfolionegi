@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Web Design Mastery </title>
+    <title>Portfolio Mazhendra </title>
   </head>
   <body>
     <nav>
@@ -49,13 +49,11 @@
 
         </div>
         <p class="section__description">
-          I'm a dedicated web developer with a creative flair and a penchant for
-          turning lines of code into captivating online experiences. My journey
-          in the digital realm began years ago, and I've since honed my skills
-          in front-end and back-end development.
+         with 8+ years of expertise in crafting responsive, visually appealing, and user-friendly web interfaces. I blend creative design with clean, efficient code to build seamless digital experiences. Over the last 1.5 years, I’ve specialized in React.js, creating scalable, component-driven applications. Passionate about pixel-perfect design, web accessibility, and delivering high-performance solutions that leave a lasting impact.
         </p>
         <div class="header__btn">
-          <button class="btn">Hire Me Now</button>
+          <button class="btn" onclick="hireMe()">Hire Me Now</button>
+
         </div>
       </div>
     </header>
@@ -69,13 +67,17 @@
       <div class="about__content">
         <h2 class="section__header">Bit About Me</h2>
         <p class="section__description">
-          A passionate web developer with a creative flair and a knack for
-          turning visions into reality. My journey in web development began with
-          a fascination for coding and design, and it has evolved into a career
-          where I blend aesthetics with functionality. With a focus on user
-          experience and a commitment to staying updated with the latest
-          industry trends, I'm dedicated to creating web solutions that not only
-          meet but exceed expectations.
+         Experienced Front-End Developer with over 8+ years of
+        expertise in responsive web design, UI/UX
+        implementation, and pixel-perfect HTML/CSS
+        development. Built a solid foundation through years of
+        designing intuitive user interfaces and ensuring crossbrowser
+        compatibility. Over the last 1.5 years, expanded
+        into modern JavaScript frameworks, specializing in
+        building scalable, component-driven applications using
+        React.js. Passionate about clean code, accessibility, and
+        delivering high-performance, user-centric digital
+        experiences.
         </p>
         <div class="about__btn">
           <button class="btn" id="downloadCvBtn">Download CV</button>
@@ -251,7 +253,7 @@
   <!-- Tabs -->
   <div class="portfolio__tabs">
     <button class="tab-btn btn active" data-tab="websites">Websites</button>
-    <button class="tab-btn btn" data-tab="emailers">Emailers</button>
+    <!-- <button class="tab-btn btn" data-tab="emailers">Emailers</button> -->
     <button class="tab-btn btn" data-tab="ecommerce">E-commerce</button>
     <button class="tab-btn btn" data-tab="admin">Admin Dashboards</button>
   </div>
@@ -280,46 +282,62 @@
   <a href="assets/pic7.webp">
     <img src="assets/pic7.webp" alt="Website Project" />
   </a>
-   <a href="assets/pic9.jpg">
+   <a href="assets/oneassist.png">
     <img src="assets/pic9.jpg" alt="Website Project" />
   </a>
+   <a href="assets/portolio.png">
+    <img src="assets/website2.webp" alt="Website Project" />
+  </a>
+   <a href="assets/website3.webp">
+    <img src="assets/website3.webp" alt="Website Project" />
+  </a>
+   <a href="assets/camapign.png">
+    <img src="assets/website1.webp" alt="Website Project" />
+  </a>
+   <a href="assets/minibit.png">
+    <img src="assets/minibitui.webp" alt="Website Project" />
+  </a>
+   
    <a href="assets/pic8.webp">
     <img src="assets/pic8.webp" alt="Website Project" />
   </a>
-   <a href="assets/pic3.webp">
-    <img src="assets/pic3.webp" alt="Website Project" />
-  </a>
-   
+  
 </div>
 
 
     <!-- Emailers -->
-    <div class="tab-content" id="emailers">
-      <a href="assets/project-3.jpg" data-lightbox="emailers">
+    <!-- <div class="tab-content" id="emailers">
+      <a href="assets/project-3.jpg" >
         <img src="assets/project-3.jpg" alt="Emailer" />
       </a>
-      <a href="assets/project-4.jpg" data-lightbox="emailers">
+      <a href="assets/project-4.jpg" >
         <img src="assets/project-4.jpg" alt="Emailer" />
       </a>
-    </div>
+    </div> -->
 
     <!-- E-commerce -->
     <div class="tab-content" id="ecommerce">
-      <a href="assets/project-5.jpg" data-lightbox="ecommerce">
-        <img src="assets/project-5.jpg" alt="E-commerce" />
+       <a href="assets/admin3.webp" >
+        <img src="assets/admin3.webp" alt="Admin Dashboard" />
       </a>
-      <a href="assets/project-6.jpg" data-lightbox="ecommerce">
-        <img src="assets/project-6.jpg" alt="E-commerce" />
+       <a href="assets/kolan.png" >
+        <img src="assets/admin4.webp" alt="Admin Dashboard" />
+      </a>
+       <a href="assets/meddy.png" >
+        <img src="assets/admin5.webp" alt="Admin Dashboard" />
       </a>
     </div>
 
     <!-- Admin Dashboards -->
     <div class="tab-content" id="admin">
-      <a href="assets/project-7.jpg" data-lightbox="admin">
-        <img src="assets/project-7.jpg" alt="Admin Dashboard" />
+      <a href="assets/admin.webp" >
+        <img src="assets/admin.webp" alt="Admin Dashboard" />
       </a>
-      <a href="assets/project-8.jpg" data-lightbox="admin">
-        <img src="assets/project-8.jpg" alt="Admin Dashboard" />
+      <a href="assets/admin1.webp">
+        <img src="assets/admin1.webp" alt="Admin Dashboard" />
+      </a>
+       <a href="assets/admin2.webp">
+        <img src="assets/admin2.webp" alt="Admin Dashboard" />
       </a>
     </div>
   </div>
@@ -330,19 +348,35 @@
       <div class="logo">M</div>
       <h2 class="section__header">Let's Talk With Me!</h2>
       <p class="section__description">
-        An open invitation to connect, and exploring collaborative opportunities
-        on my personal portfolio website.
+       I'm always open to meaningful conversations, creative collaborations, and exciting opportunities.  
+    Whether you have a project in mind, want to exchange ideas, or just say hello —  
+    feel free to reach out through my personal portfolio website.
       </p>
       <div class="contact__socials">
-        <a href="#"><i class="ri-twitter-fill"></i></a>
-        <a href="#"><i class="ri-linkedin-fill"></i></a>
-        <a href="#"><i class="ri-behance-fill"></i></a>
-        <a href="#"><i class="ri-dribbble-line"></i></a>
-        <a href="#"><i class="ri-pinterest-line"></i></a>
-      </div>
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/mahendra.negi.395" target="_blank">
+    <i class="ri-facebook-fill"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/mahendra-negi-258847118/" target="_blank">
+    <i class="ri-linkedin-fill"></i>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/mannu_21__/?next=%2F&hl=en" target="_blank">
+    <i class="ri-instagram-fill"></i>
+  </a>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/9818598538" target="_blank">
+    <i class="ri-whatsapp-line"></i>
+  </a>
+</div>
+
     </section>
     <footer class="footer">
-      Copyright © 2023 Web Design Mastery. All rights reserved.
+      Copyright © 2025. All rights reserved.
     </footer>
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>

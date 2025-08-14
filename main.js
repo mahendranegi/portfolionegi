@@ -152,3 +152,36 @@ document.addEventListener("DOMContentLoaded", () => {
 
   observer.observe(section);
 });
+function hireMe() {
+    const email = "msnegi869@gmail.com";
+    const subject = "Hiring Inquiry";
+    const body = "Hello Mahendra,\n\nI'm interested in working with you.";
+    
+    // Open Gmail compose
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
+}
+// Disable right-click
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
+// Block opening console via Ctrl+Shift+J or Ctrl+U (View Source)
+document.onkeydown = function(e) {
+  if (
+    (e.ctrlKey && e.shiftKey && e.keyCode === 74) || // Ctrl+Shift+J
+    (e.ctrlKey && e.keyCode === 85) // Ctrl+U
+  ) {
+    e.preventDefault();
+    return false;
+  }
+};
+
+// Prevent using console for debugging
+(function() {
+  const _log = console.log;
+  const _warn = console.warn;
+  const _error = console.error;
+  // console.log = console.warn = console.error = function() {
+  //   alert("Console access is disabled for this site.");
+  // };
+})();
