@@ -64,7 +64,7 @@ ScrollReveal().reveal(".portfolio__card", {
   duration: 1000,
   interval: 500,
 });
-const phrases = ["UI Designer", "Pixel-Perfect UI", "Front-End Expert"];
+const phrases = ["UI Developer", "Pixel-Perfect UI", "Front-End Engineer"];
 const dynamicText = document.getElementById("dynamic-text");
 
 let i = 0;

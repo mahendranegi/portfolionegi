@@ -448,7 +448,7 @@ nav {
   width: 100%;
   margin: auto;
   display: grid;
-  gap: 20px;
+  gap: 8px;
 }
 
 .skill {
@@ -460,8 +460,9 @@ nav {
 .skill-info {
   display: flex;
   justify-content: space-between;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 8px;
+  font-size: 12px;
 }
 
 .progress-bar {
@@ -499,7 +500,7 @@ nav {
 
 .tool {
   background: rgba(255, 255, 255, 0.05);
-  padding: 20px;
+  padding: 24px;
   border-radius: 12px;
   text-align: center;
   transition: all 0.3s ease;
