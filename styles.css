@@ -257,7 +257,7 @@ nav {
 .header__image::after {
   position: absolute;
     content: "MS. NEGI";
-    letter-spacing: 1.5rem;
+    letter-spacing: 12px;
     opacity: 1;
     right: 1rem;
     top: 50%;
